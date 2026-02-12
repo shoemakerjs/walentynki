@@ -9,6 +9,7 @@ const retryBtn = document.querySelector(".retry");
 const successScreen = document.querySelector(".success-screen");
 
 const siren = document.getElementById("siren");
+const love = document.getElementById("love");
 
 
 // ---------- OTWARCIE KOPERTY ----------
@@ -34,7 +35,7 @@ function yesclicked() {
   
   setTimeout(() => {
       successScreen.classList.add("active");
-      siren.play();
+      love.play();
   }, 600);
 }
 
