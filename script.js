@@ -25,7 +25,7 @@ envelope.addEventListener("click", () => {
 });
 
 
-// ---------- TAK ----------
+// ---------- TAK -----------
 function yesclicked() {
 
   if(questionScreen.classList.contains("active")){
