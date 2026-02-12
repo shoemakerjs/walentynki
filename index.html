@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walentynka</title>
+
+
+    <!-- Fonty -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css"/>
+  
+    <link rel="stylesheet" href="styles.css">
+
+    
+
+</head>
+<body>
+
+  <!-- EKRAN 1 — KOPERTA -->
+  <section class="screen envelope-screen active">
+      <div class="envelope-grp">
+        <img src="koperta.png" class="envelope">
+        <img src="arrow.png" class="arrow">
+        <h1>Kliknij mnie</h1>
+      </div>
+      
+  </section>
+  
+  <!-- EKRAN 2 — PYTANIE -->
+  <section class="screen question-screen">
+  
+      <div class="card">
+
+          <div class="glider">
+            <img src="img1.png">
+            <img src="img2.png">
+            <img src="img3.png">
+          </div>
+          
+
+          <div class="text-container">
+            <h3>Marysia</h3>
+            <h1>Zostaniesz moją walentynką?</h1>
+          </div>
+
+  
+          <div class="buttons">
+              <button class="yes">Tak!</button>
+              <button class="no">Nie.</button>
+          </div>
+      </div>
+  
+  </section>
+  
+  <!-- EKRAN 3 — ERROR -->
+  <section class="screen error-screen">
+  
+      <div class="card">
+          <img src="gif.gif">
+
+          <div class="text-container">
+            <h3>Marysia!</h3>
+            <h1>Chyba doszło do pomyłki... 🤔</h1>
+          </div>
+
+  
+          <button class="retry">Spróbujmy jeszcze raz</button>
+      </div>
+  
+  </section>
+
+  <section class="screen success-screen">
+
+
+        <div class="card">
+        <img src="heart2.gif">
+
+        <div class="text-container">
+          <h1>Zapraszam na walentynkową randkę</h1>
+          <h3>❤️Kolacja</h3>
+          <h3>❤️Kino</h3>
+          <h3>❤️Wino</h3>
+        </div>
+        </div>
+
+
+
+</section>
+  
+  <audio id="siren" src="siren.mp3"></audio>
+  
+  <script src="script.js"></script>
+  
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

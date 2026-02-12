@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* fonts */
+body{
+    font-family: Rubik;
+}
+
+h1{
+    align-self: stretch;
+
+    color: #000;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3{
+    align-self: stretch;
+
+    color: #D10A0A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;    
+}
+
+/* buttons */
+
+.yes{
+
+    color: #FFF;
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    display: flex;
+    height: 4rem;
+    padding: 0.5rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem; 
+
+    border: none;
+    border-radius: 3rem;
+    background: #D10A0A;
+}
+
+.no{
+    color: #757171;
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: white;
+
+    display: flex;
+    height: 4rem;
+    padding: 0.5rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem; 
+
+    border-radius: 25rem;
+    border: 1px solid #757171;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+
+.retry{
+    color: #FFF;
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    display: flex;
+    height: 4rem;
+    padding: 0.5rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem; 
+
+    border: none;
+    border-radius: 3rem;
+    background: #D10A0A;    
+}
+
+/* screen css */
+
+.screen {
+    position: fixed;
+    inset: 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background: #e3c6c6;
+  
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s ease;
+  }
+  
+  .screen.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+
+/* envelope hover */
+
+  .envelope {
+    width: 320px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .envelope:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  }
+
+  .envelope-grp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+/* card layout */
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background: white;
+    padding: 2rem;
+    text-align:center;
+    gap: 2.5rem;
+    overflow: hidden;
+  }
+
+  .error-screen {
+    background: #c82121;
+  }
+  
+  .text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+  }
+
+  /* glider = slides component */
+
+  .glider {
+    width: 100%;
+    height: 19.75rem;
+    overflow: hidden;
+  }
+  
+  .glider-track {
+    height: 100%;
+  }
+  
+  .glider-slide {
+    height: 100%;
+  }
+  
+  .glider-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .success{
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    gap: 2.5rem;
+    padding: 2rem;
+    text-align:center;
+  }
+  
